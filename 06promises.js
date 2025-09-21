@@ -18,8 +18,8 @@ function getData(dataID, getNextData){
     }, 2000);
 
     });
-  //
 
+  //-------------------------------------
   const getPromise = () =>{
     return new Promise((resolve, reject) =>{
         console.log(" I am a promise");
@@ -35,5 +35,7 @@ function getData(dataID, getNextData){
   promise.catch((err) =>{
     console.log("Rejected", err);
   })
+
+  //------------------------------------
 
 }
